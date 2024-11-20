@@ -52,44 +52,31 @@ class MobileMenu extends Component{
                     </a>
                     <div className="offcanvas-wrapper">
                         <div className="offcanvas-inner-content">
-                            <div className="offcanvas-mobile-search-area">
-                                <form action="#">
-                                <input type="search" placeholder="Search ..." />
-                                <button type="submit"><i className="fa fa-search" /></button>
-                                </form>
-                            </div>
+
                             <nav className="offcanvas-navigation" id="offcanvas-navigation">
                                 <ul>
+                                <li>
+                                        <Link to={`${process.env.PUBLIC_URL}/`} >Heim</Link>
+                                    </li>
                                     <li className="menu-item-has-children">
-                                    <Link to={`${process.env.PUBLIC_URL}/heim`}>HEIM</Link>
+                                    <Link to={`${process.env.PUBLIC_URL}/heim`}>Panta</Link>
                                         <ul className="sub-menu">
-                                            <li><Link to={`${process.env.PUBLIC_URL}/heim`}>Heim</Link></li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>Starfsmenn</Link></li>
+                                            <li><Link to={`${process.env.PUBLIC_URL}/sonn-heimkoma`}>Sönn Heimkoma</Link></li>
+                                            <li><Link to={`${process.env.PUBLIC_URL}/sonn`}>Sönn</Link></li>
                                         </ul>
                                     </li>
-                                    <li className="menu-item-has-children">
-                                        <Link to={`${process.env.PUBLIC_URL}/projects`} >VERKEFNI</Link>
-                                        <ul className="sub-menu">
-                                            <li><Link to={`${process.env.PUBLIC_URL}/projects`} >Verkefnasíða</Link></li>
-                                         </ul>
-                                    </li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>HAFA SAMBAND</Link> </li>
+                                    <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>Hafa samband</Link> </li>
                                 </ul>
                             </nav>
                             <div className="offcanvas-widget-area">
                                 <div className="off-canvas-contact-widget">
                                 <div className="header-contact-info">
                                     <ul className="header-contact-info__list">
-                                    <li><i className="ion-android-phone-portrait" /> <a href="tel:+3545681877">568 1877</a></li>
-                                    <li><i className="ion-android-mail" /> <a href="mailto:grettirblikk@grettirblikk.is">grettirblikk@grettirblikk.is</a></li>
+                                    <li><i className="ion-android-phone-portrait" /> <a href="tel:+3548529707">852 9707</a></li>
+                                    <li><i className="ion-android-mail" /> <a href="mailto:elsahalldorsdottir@gmail.com">elsahalldorsdottir@gmail.com</a></li>
                                     </ul>
                                 </div>
                                 </div>
-                                {/*Off Canvas Widget Social Start*/}
-                                <div className="off-canvas-widget-social">
-                                <a href="https://www.facebook.com/BlikksmidjanGrettir" title="Facebook"><i className="fa fa-facebook" /></a>
-                                </div>
-                                {/*Off Canvas Widget Social End*/}
                             </div>
                         </div>
                     </div>

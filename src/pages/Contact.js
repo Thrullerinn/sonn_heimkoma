@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import NavBar from "../components/NavBar";
-import Footer from "../components/Footer";
-import MobileMenu from "../components/MobileMenu";
 class Contact extends Component {
   render() {
     return (
@@ -14,20 +12,14 @@ class Contact extends Component {
         <div
           className="breadcrumb-area breadcrumb-bg"
           style={{
-            backgroundImage: `url(assets/img/backgrounds/funfact-bg.jpg)`
+            backgroundImage: `url(assets/images/bak1.jpg)`
           }}
         >
           <div className="container">
             <div className="row">
               <div className="col">
                 <div className="page-banner text-center">
-                  <h1>Hafa samband</h1>
-                  <ul className="page-breadcrumb">
-                    <li>
-                      <a href="/">Heim</a>
-                    </li>
-                    <li>Hafa samband</li>
-                  </ul>
+                  <h1>Panta</h1>
                 </div>
               </div>
             </div>
@@ -37,23 +29,32 @@ class Contact extends Component {
 
         {/*====================  content page content ====================*/}
         <div className="page-wrapper section-space--inner--120">
+
+
+        <div className="conact-section">
+            <div className="container">
+              <div className="row">
+
+                Bókin kostar 4000 kr. og verður send með pósti heim að þínum dyrum.
+
+                <br />Hægt er að fá hana senda til útlanda að viðbættum flutningskostnaði, 500 kr.
+
+                <br />Pöntunin fer fram með því að fylla út pöntunarformið hér að neðan og millifæra á eftirfarandi reikning:
+
+                <br />Reikningur: 0111-05-010493
+
+                <br />Kennitala: 020477-2969
+
+              </div>
+            </div>
+          </div>
+          <br />
+          <br />
+
+
           {/*Contact section start*/}
           <div className="conact-section">
             <div className="container">
-              <div className="row section-space--bottom--50">
-                <div className="col">
-                  <div className="contact-map">
-                    <iframe
-                    title="blehhh"
-                        id="project_frame" name="project_frame"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1741.0009177103589!2d-21.827062922384115!3d64.128075018107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48d67481f30eb80f%3A0x885fc8bd9a61d063!2sBlikksmi%C3%B0jan%20Grettir!5e0!3m2!1sen!2sis!4v1716412954935!5m2!1sen!2sis"
-                        width="600" height="450" allowFullScreen="" loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade">
-
-                    </iframe>
-                  </div>
-                </div>
-              </div>
               <div className="row">
                 <div className="col-lg-4 col-12">
                   <div className="contact-information">
@@ -65,9 +66,7 @@ class Contact extends Component {
                         </span>
                         <span className="text">
                           <span>
-                            Blikksmiðjan Grettir ehf
-                            Funahöfða 5, 110 Reykjavík
-                            Kennitala: 511200-3690
+                            Elsa Steinunn Halldórsdóttir
                           </span>
                         </span>
                       </li>
@@ -76,7 +75,7 @@ class Contact extends Component {
                           <i className="ion-ios-telephone-outline" />
                         </span>
                         <span className="text">
-                          <a href="tel:+3545681877">568 1877</a>
+                          <a href="tel:+3548529707">8529707</a>
                         </span>
                       </li>
                       <li>
@@ -84,7 +83,7 @@ class Contact extends Component {
                           <i className="ion-ios-email-outline" />
                         </span>
                         <span className="text">
-                          <a href="mailto:grettirblikk@grettirblikk.is">grettirblikk@grettirblikk.is</a>
+                          <a href="mailto:elsahalldorsdottir@gmail.com">elsahalldorsdottir@gmail.com</a>
                         </span>
                       </li>
                     </ul>
@@ -95,6 +94,16 @@ class Contact extends Component {
                     <h3>Skilaboð</h3>
                     <form id="contact-form">
                       <div className="row row-10">
+                        <div className="sonn-checkboxes" >
+                          <label>
+                            <input type="checkbox" />
+                            Sönn
+                          </label>
+                          <label>
+                            <input type="checkbox" />
+                            Sönn Heimkoma
+                          </label>
+                      </div>
                         <div className="col-md-6 col-12 section-space--bottom--20">
                           <input
                             name="con_name"
@@ -129,12 +138,6 @@ class Contact extends Component {
           {/*Contact section end*/}
         </div>
         {/*====================  End of content page content  ====================*/}
-
-        {/* Footer */}
-        <Footer />
-
-        {/* Mobile Menu */}
-        <MobileMenu />
       </div>
     );
   }
