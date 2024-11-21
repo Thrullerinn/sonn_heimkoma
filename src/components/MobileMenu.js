@@ -59,12 +59,13 @@ class MobileMenu extends Component{
                                         <Link to={`${process.env.PUBLIC_URL}/`} >Heim</Link>
                                     </li>
                                     <li className="menu-item-has-children">
-                                    <Link to={`${process.env.PUBLIC_URL}/heim`}>Panta</Link>
+                                    <Link to={`${process.env.PUBLIC_URL}/heim`}>Bækurnar</Link>
                                         <ul className="sub-menu">
-                                            <li><Link to={`${process.env.PUBLIC_URL}/sonn-heimkoma`}>Sönn Heimkoma</Link></li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/sonn`}>Sönn</Link></li>
+                                            <li><Link to={`${process.env.PUBLIC_URL}/sonnbok`}>Sönn Heimkoma</Link></li>
+                                            <li><Link to={`${process.env.PUBLIC_URL}/sonnheimkomabok`}>Sönn</Link></li>
                                         </ul>
                                     </li>
+                                    <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>Um</Link> </li>
                                     <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>Hafa samband</Link> </li>
                                 </ul>
                             </nav>
