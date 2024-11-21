@@ -13,9 +13,6 @@ class Contact extends Component {
   render() {
 
     const sendEmail = (e) => {
-      const text = "Skilabod:" + 
-
-
       e.preventDefault();
       emailjs
         .sendForm(
