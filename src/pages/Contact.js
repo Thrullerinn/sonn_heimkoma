@@ -17,7 +17,7 @@ class Contact extends Component {
       emailjs
         .sendForm(
           "service_u1gnewh",
-          "template_7lk7z47",
+          "template_oawdr1g",
           this.form.current,
           "THdSvFY8PC9AqYytT"
         )
