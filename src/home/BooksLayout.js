@@ -17,8 +17,10 @@ class BooksLayout extends Component{
                     </Link>
                 </div>
                 <div>
+                    <Link to={`${process.env.PUBLIC_URL}/authorpage`}>
                     <img className="elsa-bok-mynd"src={`assets/images/elsa.jpg`} alt="" 
                     />
+                    </Link>
                 </div>
             </div>
     

@@ -1,7 +1,57 @@
 import React, { Component } from "react";
 import NavBar from "../components/NavBar";
+import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
+
 class Contact extends Component {
+  
+  constructor(props){
+    super(props);
+    this.form = React.createRef();
+}
+
   render() {
+
+    const sendEmail = (e) => {
+      const text = "Skilabod:" + 
+
+
+      e.preventDefault();
+      emailjs
+        .sendForm(
+          "service_u1gnewh",
+          "template_7lk7z47",
+          this.form.current,
+          "THdSvFY8PC9AqYytT"
+        )
+        .then(
+          (result) => {
+            toast.success("Skilaboð send!", {
+              position: "top-right",
+              autoClose: 2000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+            });
+            document.getElementById("myForm").reset();
+          },
+          (error) => {
+            toast.error("Eitthvað obbobobb í sendingunni!", {
+              position: "top-right",
+              autoClose: 2000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+            });
+          }
+        );
+    };
+
+
     return (
       <div>
         {/* Navigation bar */}
@@ -34,17 +84,17 @@ class Contact extends Component {
         <div className="conact-section">
             <div className="container">
               <div className="row">
-
+                <div className="col-lg-4 col-12"> 
                 Bókin kostar 4000 kr. og verður send með pósti heim að þínum dyrum.
 
-                <br />Hægt er að fá hana senda til útlanda að viðbættum flutningskostnaði, 500 kr.
+                <br /><br />Hægt er að fá hana senda til útlanda að viðbættum flutningskostnaði, 500 kr.
 
-                <br />Pöntunin fer fram með því að fylla út pöntunarformið hér að neðan og millifæra á eftirfarandi reikning:
+                <br /><br />Pöntunin fer fram með því að fylla út pöntunarformið hér að neðan og millifæra á eftirfarandi reikning:
 
-                <br />Reikningur: 0111-05-010493
+                <br /><br />Reikningur: 0111-05-010493
 
-                <br />Kennitala: 020477-2969
-
+                <br /><br />Kennitala: 020477-2969
+                </div>
               </div>
             </div>
           </div>
@@ -92,35 +142,43 @@ class Contact extends Component {
                 <div className="col-lg-8 col-12">
                   <div className="contact-form">
                     <h3>Skilaboð</h3>
-                    <form id="contact-form">
+                    <form id="myForm" 
+                      ref={this.form}  
+                      onSubmit={sendEmail}>
                       <div className="row row-10">
                         <div className="sonn-checkboxes" >
                           <label>
-                            <input type="checkbox" />
+                            <input 
+                            name="sonn" 
+                            type="checkbox" />
                             Sönn
                           </label>
                           <label>
-                            <input type="checkbox" />
+                            <input 
+                            name="sonnheimkoma"  
+                            type="checkbox" />
                             Sönn Heimkoma
                           </label>
                       </div>
                         <div className="col-md-6 col-12 section-space--bottom--20">
                           <input
-                            name="con_name"
+                            name="name"
                             type="text"
                             placeholder="Nafn"
+                            required
                           />
                         </div>
                         <div className="col-md-6 col-12 section-space--bottom--20">
                           <input
-                            name="con_email"
+                            name="email"
                             type="email"
                             placeholder="Netfang"
+                            required
                           />
                         </div>
                         <div className="col-12">
                           <textarea
-                            name="con_message"
+                            name="message"
                             placeholder="Skilaboð"
                             defaultValue={""}
                           />

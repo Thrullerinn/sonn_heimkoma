@@ -35,10 +35,11 @@
 }
 
 .elsa-bok-mynd {
-    width: 400px;
+    width: 30vw;
+    min-width: 350px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     margin: auto;
-    padding: 30px;
+    padding: 2vw;
 }
 .elsa-main-text {
     position: absolute;
@@ -68,4 +69,7 @@
 .elsa-order{
     color: green;
     font-size: 20px;
+}
+.mobile-navigation-icon {
+    height: 70px;
 }

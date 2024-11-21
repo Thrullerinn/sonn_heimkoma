@@ -45,10 +45,9 @@ class NavBar extends Component{
         return(
             <div>
                 {/*====================  header area ====================*/}
-                <div className={`header-area header-sticky header-sticky--default ${this.state.scroll > this.state.top ? "is-sticky" : ""}`}>
+                <div className={` header-area header-sticky header-sticky--default ${this.state.scroll > this.state.top ? "is-sticky" : ""}`}>
                     <div className="header-area__desktop header-area__desktop--default">
                     {/*=======  header info area  =======*/}
-                    <div className="header-info-area">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-12">
@@ -61,7 +60,6 @@ class NavBar extends Component{
                                 </div>
                             </div>
                             </div>
-                    </div>
                     {/*=======  End of header info area =======*/}
 
                     {/*=======  header navigation area  =======*/}
