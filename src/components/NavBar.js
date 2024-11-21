@@ -75,7 +75,7 @@ class NavBar extends Component{
                                             <li><Link to={`${process.env.PUBLIC_URL}/`}>Heim</Link> </li>
 
                                             <li className="has-children has-children--multilevel-submenu">
-                                                <Link to={`${process.env.PUBLIC_URL}/order`}>Bækurnar</Link>
+                                                <Link to={`${process.env.PUBLIC_URL}/sonnheimkomabok`}>Bækurnar</Link>
                                                 <ul className="submenu">
                                                     <li><Link to={`${process.env.PUBLIC_URL}/sonnbok`}>Sönn</Link></li>
                                                     <li><Link to={`${process.env.PUBLIC_URL}/sonnheimkomabok`}>Sönn heimkoma</Link></li>
