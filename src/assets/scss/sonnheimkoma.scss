@@ -52,6 +52,13 @@
     color: white;
 }
 
+@media (max-width: 1280px) {
+    .elsa-main-text {
+        left: 10vw;
+        font-size: 15px;
+    }
+}
+
 .who-are-we {
     display: flex;
     flex-direction: row;
