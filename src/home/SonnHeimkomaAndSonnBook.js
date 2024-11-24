@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import NavBar from '../components/NavBar';
 import {Link} from 'react-router-dom';
+import Funfact from '../components/Funfact';
 
 class SonnHeimkomaAndSonnBook extends Component{
     render(){
@@ -62,6 +63,7 @@ class SonnHeimkomaAndSonnBook extends Component{
                 </div>
             </div>
             </div>
+            <Funfact />
         </div>
         )
     }

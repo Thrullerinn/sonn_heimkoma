@@ -78,7 +78,7 @@ class NavBar extends Component{
                                                 <Link to={`${process.env.PUBLIC_URL}/books`}>Bækurnar</Link>
                                                 <ul className="submenu">
                                                     <li><Link to={`${process.env.PUBLIC_URL}/sonnbok`}>Sönn</Link></li>
-                                                    <li><Link to={`${process.env.PUBLIC_URL}/sonnheimkomabok`}>Sönn heimkoma</Link></li>
+                                                    <li><Link to={`${process.env.PUBLIC_URL}/sonnheimkomabok`}>Sönn Heimkoma</Link></li>
                                                 </ul>
                                             </li>
                                             <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>Um</Link></li>

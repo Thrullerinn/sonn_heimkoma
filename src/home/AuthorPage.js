@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import NavBar from '../components/NavBar';
+import Funfact from '../components/Funfact';
 
 class Author extends Component{
     render(){
@@ -8,7 +9,7 @@ class Author extends Component{
             <div>
                 <NavBar/>
                 <div className="elsa-bok-container-landscape">     
-                    <img className="elsa-bok-mynd"src={`assets/images/elsagella.jpg`} alt="" />
+                    <img className="elsa-bok-mynd"src={`assets/images/elsagella1.jpg`} alt="" />
                     <div className="elsa-book-text">
                         Ég tókst á við lífið af miklum krafti á mínum yngri árum, yfirsteig
                         hverja hindrunina á fætur annarri til þess eins að elta drauma
@@ -22,6 +23,7 @@ class Author extends Component{
                         nokkur væri var um mína skugga.
                     </div>
                 </div>
+                <Funfact />
             </div>
     
         )

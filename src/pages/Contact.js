@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import NavBar from "../components/NavBar";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
+import Funfact from "../components/Funfact";
 
 class Contact extends Component {
   
@@ -54,6 +55,27 @@ class Contact extends Component {
         {/* Navigation bar */}
         <NavBar />
 
+        {/* breadcrumb */}
+        {/*====================  breadcrumb area ====================*/}
+        <div
+          className="breadcrumb-area breadcrumb-bg"
+          style={{
+            backgroundImage: `url(assets/images/bak2.jpg)`
+          }}
+        >
+          <div className="container">
+            <div className="row">
+              <div className="col">
+                <div className="page-banner text-center">
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*====================  End of breadcrumb area  ====================*/}
+        
+
         {/*====================  content page content ====================*/}
         <div className="page-wrapper section-space--inner--120">
 
@@ -70,7 +92,7 @@ class Contact extends Component {
 
                 <br /><br />Reikningur: 0111-05-010493
 
-                <br /><br />Kennitala: 020477-2969
+                Kennitala: 020477-2969
                 </div>
               </div>
             </div>
@@ -99,14 +121,6 @@ class Contact extends Component {
                       </li>
                       <li>
                         <span className="icon">
-                          <i className="ion-ios-telephone-outline" />
-                        </span>
-                        <span className="text">
-                          <a href="tel:+3548529707">8529707</a>
-                        </span>
-                      </li>
-                      <li>
-                        <span className="icon">
                           <i className="ion-ios-email-outline" />
                         </span>
                         <span className="text">
@@ -118,7 +132,7 @@ class Contact extends Component {
                 </div>
                 <div className="col-lg-8 col-12">
                   <div className="contact-form">
-                    <h3>Skilaboð</h3>
+                    <h3>Panta bók</h3>
                     <form id="myForm" 
                       ref={this.form}  
                       onSubmit={sendEmail}>
@@ -173,6 +187,7 @@ class Contact extends Component {
           {/*Contact section end*/}
         </div>
         {/*====================  End of content page content  ====================*/}
+        <Funfact />
       </div>
     );
   }
