@@ -82,7 +82,7 @@ class NavBar extends Component{
                                                 </ul>
                                             </li>
                                             <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>Um</Link></li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>Hafa samband</Link> </li>
+                                            <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>Panta</Link> </li>
                                             </ul>
                                         </nav>
                                         </div>

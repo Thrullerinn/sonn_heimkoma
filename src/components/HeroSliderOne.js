@@ -32,7 +32,7 @@ class HeroSliderOne extends Component{
                                     <div className="hero-slider__content">
                                         <h2 className="hero-slider__title">{val.sliderTitle}</h2>
                                         <p className="hero-slider__text">{val.sliderSubtitle}</p>
-                                        <a className="hero-slider__btn" href={`${process.env.PUBLIC_URL}/${val.btnLink}`}> Hafa samband</a>
+                                        <a className="hero-slider__btn" href={`${process.env.PUBLIC_URL}/${val.btnLink}`}>Panta</a>
                                     </div>
                                     </div>
                                 </div>

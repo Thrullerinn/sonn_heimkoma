@@ -54,26 +54,6 @@ class Contact extends Component {
         {/* Navigation bar */}
         <NavBar />
 
-        {/* breadcrumb */}
-        {/*====================  breadcrumb area ====================*/}
-        <div
-          className="breadcrumb-area breadcrumb-bg"
-          style={{
-            backgroundImage: `url(assets/images/bak2.jpg)`
-          }}
-        >
-          <div className="container">
-            <div className="row">
-              <div className="col">
-                <div className="page-banner text-center">
-                  <h1>Panta</h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/*====================  End of breadcrumb area  ====================*/}
-
         {/*====================  content page content ====================*/}
         <div className="page-wrapper section-space--inner--120">
 

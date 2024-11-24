@@ -69,7 +69,7 @@ class Footer extends Component {
                     <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
                       {/* footer widget */}
                       <div className="footer-widget mb-0">
-                        <h4 className="footer-widget__title">Hafa samband</h4>
+                        <h4 className="footer-widget__title">Panta</h4>
                         <div className="footer-widget__content">
                           <ul className="contact-details">
                             <li>
