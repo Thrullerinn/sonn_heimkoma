@@ -5,7 +5,7 @@ class Author extends Component{
         
         return(
             <div className="elsa-bok-container-landscape">     
-                <img className="elsa-bok-mynd"src={`assets/images/elsa.jpg`} alt="" />
+                <img className="elsa-bok-mynd"src={`assets/images/elsa1.jpg`} alt="" />
                 <div className="elsa-book-text">
                     Ég tókst á við lífið af miklum krafti á mínum yngri árum, yfirsteig
                     hverja hindrunina á fætur annarri til þess eins að elta drauma

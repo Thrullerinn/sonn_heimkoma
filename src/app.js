@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import SonnHomePage from "./home/SonnHomePage.js";
 import SonnHeimkomaBook from "./home/SonnHeimkomaBook.js";
 import SonnBook from "./home/SonnBook.js";
+import SonnHeimkomaAndSonnBook from "./home/SonnHeimkomaAndSonnBook.js"
 import AuthorPage from "./home/AuthorPage.js"
 import { HashRouter } from 'react-router-dom'
 
@@ -20,6 +21,7 @@ const App = () => {
                 <Route path="/sonn" element={<Sonn />} />
                 <Route path="/sonnheimkomabok" element={<SonnHeimkomaBook />} />
                 <Route path="/sonnbok" element={<SonnBook />} />
+                <Route path="/books" element={<SonnHeimkomaAndSonnBook />} />
                 <Route path="/about-us" element={<AuthorPage />} />
                 <Route path="/contact-us" element={<Contact />} />
                 <Route path="/order" element={<Contact />} />
