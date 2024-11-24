@@ -6,12 +6,12 @@ class MainImage extends Component{
             <div
             className="elsa-background"
             style={{
-              backgroundImage: `url(assets/images/bak1.jpg)`
+              backgroundImage: `url(assets/images/bak2.jpg)`
             }}
           >
                     <div className="elsa-main-text">
-                       Í einfaldleikanum hvílir fegurðin, nægjusemin.
-                       Fjölbreytileiki sem mér hefði ekki órað fyrir.
+                       Í einfaldleikanum hvílir fegurðin, nægjusemin.<br />
+                       Fjölbreytileiki sem mér hefði ekki órað fyrir.<br />
                        Ég finn værðina, finn hvað hún nærir mig.
                     </div>
                 </div>

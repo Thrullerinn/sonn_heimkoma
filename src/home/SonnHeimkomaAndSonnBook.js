@@ -15,17 +15,17 @@ class SonnHeimkomaAndSonnBook extends Component{
                         vanlíðanin. Horfast í augu við þá stöðu sem ég var komin í og byrja að
                         taka til hendinni. Hlusta, opna augun, hleypa birtunni inn. Finna, snerta,
                         grafa ofan í mold sögunnar. Brjóta niður veggi og múra, vinsa burt allan
-                        óþarfa sem ég veit ekki hvernig endaði hjá mér.
+                        óþarfa sem ég veit ekki hvernig endaði hjá mér.<br /><br />
 
                         Ég fann styrk til að færast nær mínum skuggum og þar með nær
                         stelpunni sem tók þessar ákvarðanir eftir sinni bestu getu. Ég get enn
                         verið til staðar fyrir hana, tekið hana í faðminn, leyft mér að finna til með
                         henni. Það er aldrei of seint að elska hana, vera stolt af henni, sýna
-                        henni að hún er verðug, mannleg, falleg fyrirmynd.
+                        henni að hún er verðug, mannleg, falleg fyrirmynd.<br /><br />
 
                         Einfaldleikinn, fyrirgefningin, sjálfsskoðunin, töfrakonan, hugrekkið,
                         umbreytingin, drifkrafturinn, sjálfstraustið, samkenndin, hamingjan,
-                        tilbreytingin, fögnuðurinn, ástin, frelsið.
+                        tilbreytingin, fögnuðurinn, ástin, frelsið.<br /><br />
 
                         Sönn Heimkoma er önnur bók Elsu og kom út árið 2024.
                         <br />
@@ -44,16 +44,16 @@ class SonnHeimkomaAndSonnBook extends Component{
                     vegna mér leið ekki vel, hvers vegna einföldustu verkefni voru orðin mér
                     erfið, hvers vegna líf mitt var orðið svona litlaust. Mér fannst ég hafa það
                     fínt, eiga að hafa það fínt, en gleðin innra með mér var ekki til staðar
-                    lengur.
+                    lengur.<br /><br />
 
                     Skuggarnir voru ekki áþreifanlegir en erfitt var orðið að bera þá. Þeim
                     mun meira sem ég nærði þá urðu þeir þyngri, skref mín urðu þyngri,
                     líkami minn varð þyngri. Ég gaf skuggunum kraft minn. Hvert sinn sem ég
-                    nærði þá urðu þeir sterkari, sjálfsmynd mín veikari.
+                    nærði þá urðu þeir sterkari, sjálfsmynd mín veikari.<br /><br />
 
                     Dugnaðurinn, ábyrgðin, góðvildin, óreiðan, feimnin, letin, höfnunin,
                     gremjan, þögnin, einmannaleikinn, óttinn, sektarkenndin, sjálfsniðurbrotið,
-                    skömmin.
+                    skömmin.<br /><br />
 
                     Sönn er fyrsta bók Elsu og kom út árið 2023.
                         <br />

@@ -16,16 +16,16 @@ class SonnBook extends Component{
                     vegna mér leið ekki vel, hvers vegna einföldustu verkefni voru orðin mér
                     erfið, hvers vegna líf mitt var orðið svona litlaust. Mér fannst ég hafa það
                     fínt, eiga að hafa það fínt, en gleðin innra með mér var ekki til staðar
-                    lengur.
+                    lengur. <br /><br />
 
                     Skuggarnir voru ekki áþreifanlegir en erfitt var orðið að bera þá. Þeim
                     mun meira sem ég nærði þá urðu þeir þyngri, skref mín urðu þyngri,
                     líkami minn varð þyngri. Ég gaf skuggunum kraft minn. Hvert sinn sem ég
-                    nærði þá urðu þeir sterkari, sjálfsmynd mín veikari.
+                    nærði þá urðu þeir sterkari, sjálfsmynd mín veikari.<br /><br />
 
                     Dugnaðurinn, ábyrgðin, góðvildin, óreiðan, feimnin, letin, höfnunin,
                     gremjan, þögnin, einmannaleikinn, óttinn, sektarkenndin, sjálfsniðurbrotið,
-                    skömmin.
+                    skömmin.<br /><br />
 
                     Sönn er fyrsta bók Elsu og kom út árið 2023.
                         <br />

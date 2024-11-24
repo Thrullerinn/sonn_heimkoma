@@ -15,7 +15,7 @@ class Order extends Component {
         <div
           className="breadcrumb-area breadcrumb-bg"
           style={{
-            backgroundImage: `url(assets/images/bak1.jpg)`
+            backgroundImage: `url(assets/images/bak2.jpg)`
           }}
         >
           <div className="container">
