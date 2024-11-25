@@ -43,9 +43,9 @@ class NavBar extends Component{
 
 
         return(
-            <div>
+            <div class="elsa-nav">
                 {/*====================  header area ====================*/}
-                <div className={` header-area header-sticky  elsa-nav header-sticky--default ${this.state.scroll > this.state.top ? "is-sticky" : ""}`}>
+                <div className={` header-area header-sticky header-sticky--default ${this.state.scroll > this.state.top ? "is-sticky elsa-nav-open" : ""}`}>
                     <div className="header-area__desktop header-area__desktop--default">
                     {/*=======  header info area  =======*/}
                         <div className="container">
