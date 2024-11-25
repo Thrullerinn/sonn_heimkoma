@@ -63,7 +63,7 @@ class NavBar extends Component{
                     {/*=======  End of header info area =======*/}
 
                     {/*=======  header navigation area  =======*/}
-                    <div className="header-navigation-area default-bg">
+                    <div className="header-navigation-area default-bg elsa-nav">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">
