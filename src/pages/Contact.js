@@ -170,7 +170,7 @@ class Contact extends Component {
                         <div className="col-12">
                           <textarea
                             name="message"
-                            placeholder="Skilaboð"
+                            placeholder="Skilaboð/Heimilisfang"
                             defaultValue={""}
                           />
                         </div>
