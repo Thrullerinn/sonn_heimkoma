@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import NavBar from '../components/NavBar';
 import {Link} from 'react-router-dom';
-import Funfact from '../components/Funfact';
 
 class SonnBook extends Component{
     render(){
@@ -34,7 +33,6 @@ class SonnBook extends Component{
                         <Link className="elsa-order" to={`${process.env.PUBLIC_URL}/contact-us`}>Panta</Link>
                 </div>
             </div>
-            <Funfact />
             </div>
         )
     }
