@@ -83,6 +83,8 @@
 }
 
 .elsa-bok-main-texti {
+  font-family: "Gowun Dodum", sans-serif;
+
   width: 350px;
   display: flex;
   flex-direction: column;
@@ -140,12 +142,12 @@
 
   }
   .elsa-bok-main-mynd {
-    width: 50vw;
+    width: 60vw;
   }
   .elsa-bok-main-texti {
-    width: 50vw;
-    font-size: x-large;
-    height: 60vw;
+    width: 60vw;
+    font-size: medium;
+    height: unset;
   }
   .elsa-main-message-top {
     display: none;
@@ -155,10 +157,6 @@
   }
   .elsa-main-name {
     font-size: 20px;
-  }
-  .elsa-bok-main-texti {
-    font-size: medium;
-    height: unset;
   }
 }
 
