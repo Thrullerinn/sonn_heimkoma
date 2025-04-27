@@ -1,3 +1,17 @@
+.sonn-rot {
+  height: 100%;
+}
+
+.elsa-full-height {
+  height: 100%;
+}
+.elsa-container {
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .elsa-background {
   width: 100%;
   height: 80vh;
@@ -46,19 +60,102 @@
   height: 70vh;
 }
 
+
 .elsa-front {
 }
 
-.elsa-main-text {
-  position: absolute;
-  top: 60vh;
-  left: 20vw;
-  font-family: "Roboto";
-  font-size: 25px;
-  color: white;
-  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.3), 0px 8px 13px rgba(0, 0, 0, 0.1),
-    0px 18px 23px rgba(0, 0, 0, 0.1);
+.elsa-mainpage {
+  display: flex;
+  padding: 60px;
+  gap: 50px;
+  border-top: 1px solid $theme-color--default;
+  border-bottom: 1px solid $theme-color--default;
 }
+
+.elsa-main-message {
+
+}
+
+.elsa-bok-main-mynd {
+  width: 250px;
+  height: 400px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.elsa-bok-main-texti {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  grid-template-rows: auto max-content auto;
+  min-width: 400px;
+  padding: 30px;
+  text-align: center;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.elsa-main-message-top {
+  max-height: 50px;
+  
+}
+
+.elsa-main-message-center {
+
+}
+
+.elsa-main-message-bottom {
+
+}
+
+.elsa-main-text {
+  max-width: 300px;
+
+}
+
+.elsa-main-name {
+  display: flex;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Gowun Dodum", sans-serif;
+  justify-content: center;
+  font-size: 30px;
+}
+
+
+@media (max-width: 1280px) {
+  .elsa-container {
+      height: unset;
+      justify-content: center;
+  }
+  .elsa-mainpage {
+    border-top: none;
+  }
+  .elsa-mainpage {
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .elsa-bok-main-mynd {
+    width: 50vw;
+  }
+  .elsa-bok-main-texti {
+    width: 50vw;
+    font-size: x-large;
+    height: 60vw;
+  }
+  .elsa-main-message-top {
+    display: none;
+  }
+  .elsa-bok-main-mynd {
+    height: unset;
+  }
+  
+}
+
 
 @media (max-width: 1280px) {
   .elsa-main-text {

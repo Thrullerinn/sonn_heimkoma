@@ -8,7 +8,7 @@ class BooksLayout extends Component{
             <div className="elsa-bok-variety" >
                 <div>
                     <Link to={`${process.env.PUBLIC_URL}/authorpage`}>
-                    <img className="elsa-bok-mynd elsa-front"src={`assets/images/elsagella1.jpg`} alt="" 
+                    <img className="elsa-bok-mynd elsa-front"src={`assets/images/elsagella.jpg`} alt="" 
                     />
                     </Link>
                 </div>

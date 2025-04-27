@@ -7,7 +7,7 @@ class Sonn extends Component{
     render(){
         
         return(
-            <div>
+            <div className="elsa-full-height">
                 
                 <NavBar/>
                 <MainImage />
