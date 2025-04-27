@@ -20,6 +20,7 @@ class MainImage extends Component{
                 visku sem heldur áfram að gefa löngu eftir 
                 að lestri er lokið.
               </div>
+              <div className="elsa-main-message-bottom">	&#9679;		&#9679;		&#9679;	</div>
             </div>
             <a href="/#/sonnbok">
               <img className="elsa-bok-main-mynd"src={`assets/images/sonn_bok.jpg`} alt="" />
